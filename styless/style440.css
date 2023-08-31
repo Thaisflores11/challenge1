@@ -1,0 +1,74 @@
+.cuadradogrande
+{
+    border-radius: 20px;
+    background-color: var(--Dark-Blue);
+    overflow: hidden;
+    margin: 0px auto;
+    width: 30%;
+
+    padding: 20px;
+}
+.cajaestrella
+{
+    display: flex;
+    padding-bottom: 10px;
+}
+.estrellita
+{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: var(--Dark-Blue-2);
+}
+
+.letras p
+{
+    color: var(--Light-Grey);
+    font-size: 14px;
+    font-family: var(--Font-size-paragraph);
+    padding-bottom: 10px;
+}
+.letras h4
+{
+    font-family: var(--font-family-2);
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: var(--White);
+    font-size: 22px;
+}
+.botonesdegomita
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px; 
+    padding-bottom: 20px;
+}
+.botonesdegomita button
+{
+    font-weight: 500;
+    color: var(--Light-Grey);
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: var(--Dark-Blue-2);
+}
+
+.buttonmhasmello button
+{
+    background-color: var(--White);
+    height: 50px;
+    width: 290px;
+    display: flex;
+    color: var(--Orange);
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: var(--Font-size-paragraph);
+}
