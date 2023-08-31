@@ -4,7 +4,7 @@
     background-color: var(--Dark-Blue);
     overflow: hidden;
     margin: 0px auto;
-    width: 30%;
+    width: 33%;
 
     padding: 20px;
 }
@@ -61,14 +61,14 @@
 
 .buttonmhasmello button
 {
-    background-color: var(--White);
-    height: 50px;
+    background-color: var(--Orange);
+    height: 40px;
     width: 290px;
     display: flex;
-    color: var(--Orange);
+    color: var(--White);
     justify-content: space-around;
     align-items: center;
-    border-radius: 10px;
-    font-weight: 600;
-    font-size: var(--Font-size-paragraph);
+    border-radius: 20px;
+    font-weight: 500;
+    font-size:12px;
 }
